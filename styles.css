@@ -13,8 +13,12 @@ body {
     padding: 20px;
     text-align: center;
     width: 450px;
-    height: 830px;
+    height: 1000px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container h3{
+    color: gray;
 }
 
 .profile-pic {
@@ -61,22 +65,13 @@ footer {
     padding: 5px;
     border-radius: 5px;
     clear: both;
-}
-
-.link-footer {
-    text-decoration: none;
-    color: #724c3e;
+    color: #8ed8f7;
     font-weight: bold;
+    text-decoration: none;
 }
 
-
-button {
-    padding: 10px 20px;
-    font-size: 25px;
-    cursor: pointer;
-    background-color: #724c3e;
-    color: white;
-    border: none;
-    border-radius: 30px;
+footer a {
+    color: #2f3092;
+    font-weight: bold;
 }
 

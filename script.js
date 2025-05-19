@@ -1,10 +1,8 @@
 function descargarContacto() {
     const vcardData = `BEGIN:VCARD
 VERSION:3.0
-FN:Claudia Vacca
-TEL:+57 3155714240
-EMAIL: clvacca@gmail.com
-NOTE: Bon Vivant
+FN:Arka Veterinaria
+TEL:+57 3104258422
 END:VCARD`;
 
     const blob = new Blob([vcardData], { type: 'text/vcard' });

@@ -9,18 +9,24 @@
 /* Estilo general */
 body {
     line-height: 1.6;
-    color: #0a1927;
-    background-color: #f4f5f7;
+    color: #2f3092;
+    background-color: white;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
+.fondo-decorativo {
+    width: 80%;
+    max-width: 600px;
+    pointer-events: none; /* Evita que la imagen interfiera con los clics */
+}
+
 /* Encabezado */
 .contact-header {
     text-align: center;
-    background-color: #0a1927;
+    background-color: #2f3092;
     color: white;
     padding: 20px 10px;
 }
@@ -44,7 +50,7 @@ body {
 .container h2 {
     font-size: 1.8rem;
     margin-bottom: 20px;
-    color: #2c3e50;
+    color: #2f3092;
 }
 
 .link-container {
@@ -60,7 +66,7 @@ body {
     justify-content: center;
     text-decoration: none;
     color: white;
-    background-color: #8ea0aa;
+    background-color: #8ed8f7;
     padding: 15px 25px;
     border-radius: 10px;
     transition: transform 0.3s, background-color 0.3s;
@@ -74,7 +80,7 @@ body {
 }
 
 .link:hover {
-    background-color: #6d8a97;
+    background-color: #8ed8f7;
     transform: translateY(-5px);
 }
 
@@ -82,8 +88,15 @@ body {
 footer {
     text-align: center;
     padding: 20px;
-    background: #0a1927;
+    background: #2f3092;
     color: #f9f9f9;
     font-size: 0.9rem;
     margin-top: auto;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a {
+    color: #8ed8f7;
+    font-weight: bold;
 }

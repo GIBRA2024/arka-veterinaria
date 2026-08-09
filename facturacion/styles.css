@@ -1,6 +1,6 @@
 /* General */
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -35,10 +35,12 @@ body {
 /* Formulario */
 .form-container {
     margin: 30px auto;
-    padding: 20px;
+    padding: 30px;
     background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    width: 90%;
+    max-width: 600px;
 }
 
 .form-group {
@@ -53,11 +55,12 @@ form label {
 
 form input, form select, form textarea {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
     font-size: 1rem;
+    background-color: #fcfcfc;
 }
 
 form input:focus, form select:focus, form textarea:focus {
@@ -70,14 +73,15 @@ form input:focus, form select:focus, form textarea:focus {
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 10px 15px;
+    padding: 15px 20px;
     background-color: #25d366;
     color: #fff;
     border: none;
-    border-radius: 5px;
-    font-size: 1rem;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    box-shadow: 0 6px 15px rgba(37, 211, 102, 0.3);
 }
 
 .btn-submit i {

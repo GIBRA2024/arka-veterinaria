@@ -29,6 +29,25 @@ body {
     background-color: #2f3092;
     color: white;
     padding: 20px 10px;
+    position: relative;
+}
+
+.back-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+.back-btn:hover {
+    color: #8ed8f7;
 }
 
 .contact-header h1 {
